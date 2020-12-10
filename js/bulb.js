@@ -162,8 +162,8 @@ class Table{
         var table_mat = new BABYLON.StandardMaterial("floormaterial", scene)
         table_mat.maxSimultaneousLights = 2
     
-        var texture = {"light_wood":"https://bergdalen.ddns.net/3dfloorplan/assets/element_images/table_top_2.jpg",
-                     "dark_wood": "https://bergdalen.ddns.net/3dfloorplan/assets/element_images/table_top_1.jfif"}
+        var texture = {"light_wood":"img/table_top_2.jpg",
+                     "dark_wood": "img/table_top_1.jfif"}
     
         table_mat.diffuseTexture = new BABYLON.Texture(texture[style], scene)
         table_mat.diffuseTexture.uScale = 1
@@ -263,8 +263,8 @@ class Sofa{
         var sofa_mat = new BABYLON.StandardMaterial("floormaterial", scene)
         sofa_mat.maxSimultaneousLights = 2
     
-        var texture = {"light": "https://bergdalen.ddns.net/3dfloorplan/assets/element_images/sofa_fabric.jpg",
-                       "dark":  "https://bergdalen.ddns.net/3dfloorplan/assets/element_images/table_top_1.jfif"
+        var texture = {"light": "img/sofa_fabric.jpg",
+                       "dark":  "img/table_top_1.jfif"
                       }
     
         sofa_mat.diffuseTexture = new BABYLON.Texture(texture[style], scene)
