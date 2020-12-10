@@ -303,7 +303,7 @@ createScene = function() {
     floormat.maxSimultaneousLights = 20
     
     floormat.diffuseTexture = new BABYLON.Texture(
-        "https://bergdalen.ddns.net/3dfloorplan/assets/element_images/wood_floor.jpg",
+        "img/wood_floor.jpg",
         scene);
 
         floormat.diffuseTexture.uScale = 10
