@@ -8,7 +8,6 @@ See a live beta demo here. https://tjntomas.github.io/3DFP/
 
 ![HADashboard-widgets](https://github.com/tjntomas/3DFP/blob/main/img/3dfp.jpg?raw=true)
 
-https://github.com/tjntomas/3DFP/blob/main/img/3dfp.jpg
 
 Todo:
 - Add more objects such as vacuum cleaners, outdoor street lights etc.
