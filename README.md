@@ -10,7 +10,7 @@ See a live beta demo here. https://tjntomas.github.io/3DFP/
 
 
 Todo:
-- Add more objects such as vacuum cleaners, outdoor street lights etc.
+- Add more objects such as a television, vacuum cleaner, outdoor street light etc.
 - Complete the popup control panels when you click an item in the model so you can control the colors of lights etc.
 - Add functionality to display an actual open window or door.
 - Light up the ceiling and walls of a room when a motion sensor is triggered, or add a stroboscobe-like effect.
