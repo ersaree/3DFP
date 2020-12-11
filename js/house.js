@@ -671,10 +671,10 @@ createScene = function() {
     scene.preventDefaultOnPointerUp = false
     
     // Maximize model om screen.
-    camera.zoomOn()
+    //camera.zoomOn()
     // Set initial camera angle.
-    camera.alpha = -2.248997764938095
-    camera.beta = 0.6490188319520813
+    //camera.alpha = -2.248997764938095
+    //camera.beta = 0.6490188319520813
  
 
 
