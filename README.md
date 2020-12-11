@@ -3,6 +3,12 @@
 I am working on this project to implement a live interactive 3D Floorplan for Home Assistant. The 3D model is built with babylon.js and then I connect to Home Assistant through a websocket. 
 
 Currently, I can show lights and use colors as indictors if windows are opened.There are also signs to display for instance the current temperature or other info for a room.
+See a live beta demo here. https://tjntomas.github.io/3DFP/
+
+
+![HADashboard-widgets](https://github.com/tjntomas/3DFP/blob/main/img/3dfp.jpg?raw=true)
+
+https://github.com/tjntomas/3DFP/blob/main/img/3dfp.jpg
 
 Todo:
 - Add more objects such as vacuum cleaners, outdoor street lights etc.
