@@ -669,7 +669,9 @@ createScene = function() {
 
     scene.preventDefaultOnPointerDown = false
     scene.preventDefaultOnPointerUp = false
-
+    
+    camera.zoomOn()
+ 
 
 
     function rend(){
