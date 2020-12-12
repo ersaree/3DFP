@@ -20,3 +20,7 @@ Todo:
 
 
 
+Log
+- It appears that the 3D engine babylon.js, http://babylon.js has some limitations when it comes to rendering a large number of lights and shadows. To overcome this, the 3D model  need to be separated into elements such as walls, ceilings and floors for each room and making sure that any light only reflects on objects in one room.
+
+- The 3D engine is using up a lot of GPU time (when available) in Chrome and Edge browsers, so I have implmented rendering on-demand to limit the GPU load. This is a not a problem in Safari, Firefox or the android Chrome browser.
