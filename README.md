@@ -11,7 +11,7 @@ Feel free to leave a message in issues if you are interested in helping out.
 ![HADashboard-widgets](https://github.com/tjntomas/3DFP/blob/main/img/3dfp.jpg?raw=true)
 
 
-Todo:
+Todo
 - Add more objects such as a television, vacuum cleaner, outdoor street light etc.
 - Complete the popup control panels when you click an item in the model so you can control the colors of lights etc.
 - Add functionality to display an actual open window or door.
