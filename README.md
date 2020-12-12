@@ -1,8 +1,10 @@
 # 3DFP - A 3D Floorplan for Home Assistant
 
-I am working on a project to implement an interactive 3D Floorplan for Home Assistant. The 3D model is built with babylon js, http://babylonjs.com and then I connect to Home Assistant through a websocket to receive events and send service calls to monitor and control entities. 
+I am working on a project to implement an interactive 3D floorplan for Home Assistant. The plan is to be able to, in one dashboard, see a complete overview of my smart home and to easily control basic functions such as turning on lights and appliances in an intuitive way.
 
-Currently, I can show lights and use colors as indictors if for instance a window is open. There are also signs to display the current temperature or other info for a room.
+The 3D model is built with babylon js, http://babylonjs.com and the connection to Home Assistant is through a websocket, to receive events and send service calls to monitor and control entities. 
+
+Currently, I can show and control lights and other entities and use color as an indictor if for instance a window or the fridge door is open. There are also signs to display the current temperature or other info for a room.
 See a live beta demo here. https://tjntomas.github.io/3DFP/
 
 Feel free to leave a message in issues if you are interested in helping out.
