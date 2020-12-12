@@ -16,6 +16,6 @@ Todo:
 - Light up the ceiling and walls of a room when a motion sensor is triggered, or add a stroboscobe-like effect.
 - Move the yaml configuration from my previous 3DFP project so that the 3D model and the connections to Home Assistant entities can be defined in yaml
 
-Feel free to leave a message if you are interested in helping out.
+Feel free to leave a message in issues if you are interested in helping out.
 
 
