@@ -5,6 +5,8 @@ I am working on a project to implement a live interactive 3D Floorplan for Home 
 Currently, I can show lights and use colors as indictors if for instance a window is open. There are also signs to display for instance the current temperature or other info for a room.
 See a live beta demo here. https://tjntomas.github.io/3DFP/
 
+Feel free to leave a message in issues if you are interested in helping out.
+
 
 ![HADashboard-widgets](https://github.com/tjntomas/3DFP/blob/main/img/3dfp.jpg?raw=true)
 
@@ -16,6 +18,5 @@ Todo:
 - Light up the ceiling and walls of a room when a motion sensor is triggered, or add a stroboscobe-like effect.
 - Move the yaml configuration from my previous 3DFP project so that the 3D model and the connections to Home Assistant entities can be defined in yaml
 
-Feel free to leave a message in issues if you are interested in helping out.
 
 
