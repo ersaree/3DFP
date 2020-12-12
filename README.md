@@ -1,6 +1,6 @@
 # 3DFP - A 3D Floorplan for Home Assistant
 
-I am working on a project to implement an interactive 3D Floorplan for Home Assistant. The 3D model is built with babylon.js and then I connect to Home Assistant through a websocket to receive events and send service calls to monitor and control entities. 
+I am working on a project to implement an interactive 3D Floorplan for Home Assistant. The 3D model is built with babylon js, http://babylonjs.com and then I connect to Home Assistant through a websocket to receive events and send service calls to monitor and control entities. 
 
 Currently, I can show lights and use colors as indictors if for instance a window is open. There are also signs to display the current temperature or other info for a room.
 See a live beta demo here. https://tjntomas.github.io/3DFP/
@@ -21,6 +21,6 @@ Todo
 
 
 Log
-- It appears that the 3D engine babylon.js, http://babylon.js has some limitations when it comes to rendering a large number of lights and shadows. To overcome this, the 3D model  need to be separated into elements such as walls, ceilings and floors for each room and making sure that any light only reflects on objects in one room.
+- It appears that the 3D engine babylon.js, http://babylonjs.com has some limitations when it comes to rendering a large number of lights and shadows. To overcome this, the 3D model  need to be separated into elements such as walls, ceilings and floors for each room and making sure that any light only reflects on objects in one room.
 
 - The 3D engine is using up a lot of GPU time (when available) in Chrome and Edge browsers, so I have implmented rendering on-demand to limit the GPU load. This is a not a problem in Safari, Firefox or the android Chrome browser.
