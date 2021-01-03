@@ -7,7 +7,6 @@ The 3D model is built with babylon js, http://babylonjs.com and the connection t
 Currently, I can show and control lights and other entities and use color as an indictor if for instance a window or the fridge door is open. There are also signs to display the current temperature or other info for a room.
 See a live beta demo here. https://tjntomas.github.io/3DFP/
 
-Feel free to leave a message in issues if you are interested in helping out.
 
 
 ![HADashboard-widgets](https://github.com/tjntomas/3DFP/blob/main/img/3dfp.jpg?raw=true)
